@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from google import genai
+import google.genai as genai
 import os
 
 app = Flask(__name__)
