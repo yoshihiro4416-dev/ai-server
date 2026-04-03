@@ -20,7 +20,7 @@ def personality():
     """
 
     response = client.models.generate_content(
-        model="gemini-1.5-flash",
+        model="models/text-bison-001",
         contents=prompt
     )
 
